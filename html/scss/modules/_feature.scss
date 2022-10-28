@@ -1,0 +1,17 @@
+.feature-section{
+    .card{
+        transform: tranalte(0);
+        transition: $transition-default;
+        &-image{
+            margin-bottom:  1.5rem;
+            img{
+                height: 25rem;
+            }
+        }
+        &:hover{
+            //background-color: $gray-100;
+            transform: translateY(-10px);
+        }
+    }
+}
+
